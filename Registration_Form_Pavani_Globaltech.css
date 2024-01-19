@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+}
+
+.bg-container {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-size: auto;
+}
+
+.email-lable {
+    display: flex;
+    justify-content: column;
+}
+
+.form-heading {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Georgia;
+    color: #fff44f;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.name-container {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.phone-num-container {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.name-heading {
+    color: #2b2727;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.phone-heading {
+    color: #2b2727;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.label-name {
+    color: #636060;
+    font-size: 14px;
+    margin-bottom: 0px;
+    width: 200px;
+}
+
+.error-msg {
+    color: #ed4c4c;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.college-contanier {
+    display: flex;
+    flex-direction: row;
+}
+
+.email-contanier {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.college {
+    margin-right: 25px;
+    color: #2b2727;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.email {
+    margin-right: 56px;
+    color: #2b2727;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.gender-heading {
+    color: #212529;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.gender-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.course-contanier {
+    display: flex;
+    flex-direction: row;
+}
+
+.course {
+    margin-right: 25px;
+    color: #2b2727;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-register {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #cf0c0c;
+    color: white;
+    width: 150px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container bg-container">
+        <h1 class="form-heading">EVENT REGISTRATION FORM</h1>
+        <form id="myForm">
+            <div class="mb-2 name-container">
+                <h6 class="name-heading">Name</h6>
+                <div class="mr-3">
+                    <input type="text" id="firstName" class="form-control" />
+                    <label for="firstName" class="label-name">First Name</label>
+                    <p class="error-msg" id="firstNameErrMsg"></p>
+                </div>
+                <div>
+                    <input type="text" id="lastName" class="form-control" />
+                    <label for="lastName" class="label-name">Last Name</label>
+                    <p class="error-msg" id="lastNameErrMsg"></p>
+                </div>
+            </div>
+            <div class="mb-4 college-contanier">
+                <label for="collegeName" class="college">College Name</label>
+                <input type="text" id="collegeName" class="form-control" />
+                <p class="error-msg" id="collegeNameErrMsg"></p>
+            </div>
+            <div class="mb-3 gender-container">
+                <h1 class="gender-heading">Gender</h1>
+                <input type="radio" name="gender" id="genderMale" value="Male" checked />
+                <label for="genderMale" class="ml-1">Male</label>
+                <input type="radio" name="gender" id="genderFemale" value="Female" class="ml-4" />
+                <label for="genderFemale" class="ml-1">Female</label>
+            </div>
+            <div class="mb-2 email-contanier">
+                <label for="email" class="email">Email</label>
+                <input type="text" id="email" class="form-control email-input-el" />
+
+                <p class="error-msg" id="emailErrMsg"></p>
+            </div>
+            <div class="mb-2 phone-num-container">
+                <h6 class="phone-heading">Phone</h6>
+                <div class="mr-3">
+                    <input type="text" id="areaCode" class="form-control" />
+                    <label for="areaCode" class="label-name">Area Code</label>
+                    <p class="error-msg" id="areaCodeErrMsg"></p>
+                </div>
+                <div>
+                    <input type="text" id="phoneNum" class="form-control" />
+                    <label for="phoneNum" class="label-name">Phone Number</label>
+                    <p class="error-msg" id="phoneNumErrMsg"></p>
+                </div>
+            </div>
+            <div class="mb-4 course-contanier">
+                <label for="courseName" class="course">Course Name</label>
+                <select id="courseName" class="form-control">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JAVSCRIPT">JAVASCRIPT</option>
+                </select>
+            </div>
+            <button class="btn btn-register" type="submit">REGISTER</button>
+        </form>
+    </div>
+</body>
+
+</html>
